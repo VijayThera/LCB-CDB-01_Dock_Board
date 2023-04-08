@@ -1,0 +1,9 @@
+.DS_Store
+/LCB-CDB-01/LCB-CDB-01-backups/
+*.ods
+*.pdf
+*.zip
+*.xml
+*.kicad_prl
+
+
