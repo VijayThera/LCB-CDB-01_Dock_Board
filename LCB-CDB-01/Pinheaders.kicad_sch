@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "LCB-CBD-001: Dock")
-    (date "2022-08-12")
-    (rev "0.1")
+    (title "LCB-CBD-01: Dock")
+    (date "2023-04-13")
+    (rev "1.1.0")
     (company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
   )
 
