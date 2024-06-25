@@ -14,7 +14,7 @@
 		(symbol "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last"
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -80,6 +80,15 @@
 			)
 			(property "manf#" "77313-118-60LF"
 				(at -16.51 40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9408,7 +9417,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last")
 		(at 49.53 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9448,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x30, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 49.53 62.23 0)
 			(effects
 				(font
@@ -9486,6 +9495,15 @@
 		)
 		(property "manf#" "77313-118-60LF"
 			(at 33.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 49.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +9704,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last")
 		(at 49.53 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9726,7 +9744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x30, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 49.53 153.67 0)
 			(effects
 				(font
@@ -9764,6 +9782,15 @@
 		)
 		(property "manf#" "77313-118-60LF"
 			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +9991,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last")
 		(at 127 64.77 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10004,7 +10031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x30, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 127 64.77 0)
 			(effects
 				(font
@@ -10042,6 +10069,15 @@
 		)
 		(property "manf#" "77313-118-60LF"
 			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10278,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last")
 		(at 125.73 153.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10281,7 +10317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x30, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 125.73 153.67 0)
 			(effects
 				(font
@@ -10319,6 +10355,15 @@
 		)
 		(property "manf#" "77313-118-60LF"
 			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 125.73 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
