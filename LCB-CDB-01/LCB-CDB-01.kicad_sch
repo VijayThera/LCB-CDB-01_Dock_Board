@@ -705,6 +705,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Fiducial_medium_0_0"
 				(text "Fiducial"
 					(at 0 1.27 0)
@@ -737,12 +746,23 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:SYM_LEA_Logo"
+		(symbol "LEA_SymbolLibrary:LCB_M3_Spacer+Scew"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "SYM"
-				(at -3.81 3.81 0)
+			(property "Reference" "H"
+				(at -3.048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LCB_M3_Spacer+Scew"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -750,17 +770,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "SYM_LEA_Logo"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:SYM_lea_logo"
-				(at 1.27 6.35 0)
+			(property "Footprint" "LEA_FootprintLibrary:LCB_M3_Spacer+Screw"
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -769,7 +780,88 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 2.54 0)
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "144-MTS-10S|534-29341"
+				(at 0.762 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "MTS-10S|29341"
+				(at 0.762 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LCB_M3_Spacer+Scew_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:SYM_LEA_Logo"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "O1"
+				(at -3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_LEA_Logo"
+				(at -1.27 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:SYM_lea_logo"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -778,6 +870,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5770,6 +5871,88 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:LCB_M3_Spacer+Scew")
+		(at 220.98 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06332a7c-9880-49ca-9ef7-d89e299adcb1")
+		(property "Reference" "H1"
+			(at 223.52 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCB_M3_Spacer+Scew"
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LCB_M3_Spacer+Screw"
+			(at 220.98 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "144-MTS-10S|534-29341"
+			(at 221.742 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MTS-10S|29341"
+			(at 221.742 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LCB-CDB-01"
+				(path "/da9c5ddc-584e-4187-90af-7a541fea6100"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:ACCESSORY_jumper")
 		(at 251.46 118.11 0)
 		(unit 1)
@@ -5955,7 +6138,7 @@
 		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
 		(at 220.98 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -5998,6 +6181,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 220.98 35.56 0)
 			(effects
 				(font
@@ -6061,7 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Additional Symbol to correct the BOM when using Conn_LCB_connector_top"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -6110,7 +6302,7 @@
 		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
 		(at 220.98 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6153,6 +6345,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 220.98 48.26 0)
 			(effects
 				(font
@@ -6538,7 +6739,7 @@
 		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
 		(at 220.98 54.61 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6589,6 +6790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 220.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LCB-CDB-01"
 				(path "/da9c5ddc-584e-4187-90af-7a541fea6100"
@@ -6602,7 +6812,7 @@
 		(lib_id "LEA_SymbolLibrary:SYM_LEA_Logo")
 		(at 220.98 29.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6645,6 +6855,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 220.98 29.21 0)
 			(effects
 				(font
@@ -7303,7 +7522,7 @@
 		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
 		(at 220.98 41.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7346,6 +7565,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 220.98 41.91 0)
 			(effects
 				(font

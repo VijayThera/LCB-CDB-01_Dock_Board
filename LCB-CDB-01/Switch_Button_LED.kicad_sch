@@ -307,6 +307,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
@@ -491,22 +500,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Green_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -515,8 +525,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -524,7 +534,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Green, IF 1mA, 1,9V"
+			(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -534,7 +544,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 7.62 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -543,7 +553,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11MTT86R"
-				(at -1.27 -8.255 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -552,7 +562,7 @@
 				)
 			)
 			(property "manf#" "SML-P11MTT86R"
-				(at 0 5.08 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -560,9 +570,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
+			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "G"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -665,22 +683,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Red_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -689,8 +708,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -698,7 +717,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Red, IF 1mA, 1,8V"
+			(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -708,7 +727,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 0 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -717,7 +736,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11UTT86R"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -726,7 +745,7 @@
 				)
 			)
 			(property "manf#" "SML-P11UTT86R"
-				(at 0 0 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -734,9 +753,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_R_1mA_SML-P11UTT86R_0_0"
+			(symbol "LED_0402_R_1mA_SML-P11UTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "R"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -839,22 +866,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Yellow_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -863,8 +891,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -872,7 +900,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Yellow, IF 1mA, 1,9V"
+			(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -882,7 +910,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 0 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -891,7 +919,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11YTT86R"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -900,7 +928,7 @@
 				)
 			)
 			(property "manf#" "SML-P11YTT86R"
-				(at 0 0 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -908,9 +936,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_0_0"
+			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "Y"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -2996,7 +3032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -3110,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -3175,7 +3211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 217.17 67.31 0)
 			(effects
 				(font
@@ -3222,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 63.5 46.99 0)
 			(effects
 				(font
@@ -3231,7 +3267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 50.7492 46.99 0)
 			(effects
 				(font
@@ -3240,7 +3276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 60.96 46.99 0)
 			(effects
 				(font
@@ -3313,7 +3349,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 250.19 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3354,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 250.19 86.36 0)
 			(effects
 				(font
@@ -3392,6 +3428,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 248.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 250.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 217.17 104.14 0)
 			(effects
 				(font
@@ -3572,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -3638,7 +3683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -3685,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 63.5 93.98 0)
 			(effects
 				(font
@@ -3694,7 +3739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 50.7492 93.98 0)
 			(effects
 				(font
@@ -3703,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -3776,7 +3821,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 224.79 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3817,7 +3862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 224.79 38.1 0)
 			(effects
 				(font
@@ -3862,6 +3907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c43b8f3-53ce-4612-8320-54569f55e5f1")
 		)
@@ -3881,7 +3935,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 276.86 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3922,7 +3976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 276.86 62.23 0)
 			(effects
 				(font
@@ -3960,6 +4014,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 275.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 276.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 67.31 0)
 			(effects
 				(font
@@ -4092,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 269.24 55.88 0)
 			(effects
 				(font
@@ -4206,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 31.75 102.87 0)
 			(effects
 				(font
@@ -4279,7 +4342,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 167.64 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4320,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -4358,6 +4421,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -4416,7 +4488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 232.3592 46.99 0)
 			(effects
 				(font
@@ -4425,7 +4497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 242.57 46.99 0)
 			(effects
 				(font
@@ -4521,7 +4593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 93.98 166.37 0)
 			(effects
 				(font
@@ -4530,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 81.2292 166.37 0)
 			(effects
 				(font
@@ -4539,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -4612,7 +4684,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 68.58 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4653,7 +4725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -4698,6 +4770,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bd084b4-fc7d-4333-a78e-40d0f2da6907")
 		)
@@ -4717,7 +4798,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 191.77 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4758,7 +4839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 191.77 38.1 0)
 			(effects
 				(font
@@ -4796,6 +4877,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 43.18 163.83 0)
 			(effects
 				(font
@@ -4854,7 +4944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 30.4292 163.83 0)
 			(effects
 				(font
@@ -4863,7 +4953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 40.64 163.83 0)
 			(effects
 				(font
@@ -4936,7 +5026,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 167.64 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4977,7 +5067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 167.64 85.09 0)
 			(effects
 				(font
@@ -5015,6 +5105,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 167.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 184.15 0)
 			(effects
 				(font
@@ -5106,7 +5205,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 68.58 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5147,7 +5246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 68.58 38.1 0)
 			(effects
 				(font
@@ -5185,6 +5284,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 34.29 46.99 0)
 			(effects
 				(font
@@ -5242,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 21.5392 46.99 0)
 			(effects
 				(font
@@ -5251,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 31.75 46.99 0)
 			(effects
 				(font
@@ -5365,7 +5473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -5461,7 +5569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 186.69 46.99 0)
 			(effects
 				(font
@@ -5470,7 +5578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 173.9392 46.99 0)
 			(effects
 				(font
@@ -5479,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 184.15 46.99 0)
 			(effects
 				(font
@@ -5552,7 +5660,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 96.52 60.96 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5593,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 96.52 60.96 0)
 			(effects
 				(font
@@ -5638,6 +5746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ae8fd45-1a25-4156-89af-84f575d9de6e")
 		)
@@ -5657,7 +5774,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 250.19 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5698,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -5743,6 +5860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "583aa61c-5174-4947-bdd0-5c0b7d9368ea")
 		)
@@ -5762,7 +5888,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 167.64 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5803,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -5841,6 +5967,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 167.64 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_LV\""
 			(at 40.64 158.75 0)
 			(effects
 				(font
@@ -5973,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 67.31 0)
 			(effects
 				(font
@@ -6040,7 +6175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 91.44 175.26 0)
 			(effects
 				(font
@@ -6153,7 +6288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 269.24 67.31 0)
 			(effects
 				(font
@@ -6219,7 +6354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -6284,7 +6419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 184.15 0)
 			(effects
 				(font
@@ -6332,7 +6467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -6341,7 +6476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 125.6792 46.99 0)
 			(effects
 				(font
@@ -6350,7 +6485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 135.89 46.99 0)
 			(effects
 				(font
@@ -6446,7 +6581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -6455,7 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 125.6792 93.98 0)
 			(effects
 				(font
@@ -6464,7 +6599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -6577,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 115.57 0)
 			(effects
 				(font
@@ -6602,7 +6737,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 143.51 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6643,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 38.1 0)
 			(effects
 				(font
@@ -6681,6 +6816,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 143.51 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -6773,7 +6917,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 39.37 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6814,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 62.23 0)
 			(effects
 				(font
@@ -6852,6 +6996,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +7054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -6910,7 +7063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 206.9592 46.99 0)
 			(effects
 				(font
@@ -6919,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 217.17 46.99 0)
 			(effects
 				(font
@@ -7015,7 +7168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -7024,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 149.8092 93.98 0)
 			(effects
 				(font
@@ -7033,7 +7186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -7106,7 +7259,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 167.64 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7147,7 +7300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 167.64 38.1 0)
 			(effects
 				(font
@@ -7185,6 +7338,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 167.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -7366,7 +7528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 140.97 158.75 0)
 			(effects
 				(font
@@ -7431,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 67.31 0)
 			(effects
 				(font
@@ -7456,7 +7618,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 68.58 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7497,7 +7659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -7542,6 +7704,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdd82de9-abc8-4a4c-ae9c-52115ffafbfd")
 		)
@@ -7561,7 +7732,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 39.37 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7602,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 85.09 0)
 			(effects
 				(font
@@ -7640,6 +7811,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 38.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 40.64 171.45 0)
 			(effects
 				(font
@@ -7821,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -7887,7 +8067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 184.15 35.56 0)
 			(effects
 				(font
@@ -7912,7 +8092,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 96.52 36.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7953,7 +8133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -7991,6 +8171,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 96.52 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -8083,7 +8272,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 191.77 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8124,7 +8313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 191.77 62.23 0)
 			(effects
 				(font
@@ -8162,6 +8351,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 184.15 55.88 0)
 			(effects
 				(font
@@ -8324,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -8333,7 +8531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 78.6892 45.72 0)
 			(effects
 				(font
@@ -8342,7 +8540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -8415,7 +8613,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 143.51 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8456,7 +8654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -8501,6 +8699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4466ef8-e163-47e4-8727-f1791c0ae829")
 		)
@@ -8520,7 +8727,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 39.37 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8561,7 +8768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 38.1 0)
 			(effects
 				(font
@@ -8599,6 +8806,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 38.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 67.31 0)
 			(effects
 				(font
@@ -8731,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 269.24 35.56 0)
 			(effects
 				(font
@@ -8797,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 242.57 35.56 0)
 			(effects
 				(font
@@ -8863,7 +9079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 217.17 55.88 0)
 			(effects
 				(font
@@ -8936,7 +9152,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 250.19 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8977,7 +9193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 250.19 38.1 0)
 			(effects
 				(font
@@ -9022,6 +9238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51916f9b-7efb-4fbb-a665-d548867f35ed")
 		)
@@ -9041,7 +9266,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 250.19 110.49 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9082,7 +9307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 250.19 110.49 0)
 			(effects
 				(font
@@ -9120,6 +9345,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 250.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +9421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -9260,7 +9494,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 39.37 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9301,7 +9535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 109.22 0)
 			(effects
 				(font
@@ -9339,6 +9573,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 39.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +9648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 184.15 0)
 			(effects
 				(font
@@ -9453,7 +9696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 143.51 166.37 0)
 			(effects
 				(font
@@ -9462,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 130.7592 166.37 0)
 			(effects
 				(font
@@ -9471,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 140.97 166.37 0)
 			(effects
 				(font
@@ -9585,7 +9828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 217.17 83.82 0)
 			(effects
 				(font
@@ -9633,7 +9876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -9642,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 149.8092 46.99 0)
 			(effects
 				(font
@@ -9651,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -9765,7 +10008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -9790,7 +10033,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 143.51 85.09 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9831,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -9869,6 +10112,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 219.71 95.25 0)
 			(effects
 				(font
@@ -9927,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 206.9592 95.25 0)
 			(effects
 				(font
@@ -9936,7 +10188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -10049,7 +10301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -10115,7 +10367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -10188,7 +10440,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 224.79 110.49 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10229,7 +10481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -10267,6 +10519,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 224.79 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -10447,7 +10708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 114.3 0)
 			(effects
 				(font
@@ -10514,7 +10775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 40.64 179.07 0)
 			(effects
 				(font
@@ -10628,7 +10889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 135.89 35.56 0)
 			(effects
 				(font
@@ -10694,7 +10955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 242.57 83.82 0)
 			(effects
 				(font
@@ -10719,7 +10980,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 224.79 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10760,7 +11021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 224.79 62.23 0)
 			(effects
 				(font
@@ -10798,6 +11059,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 223.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 224.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,7 +11135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -10978,7 +11248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -11044,7 +11314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 60.96 35.56 0)
 			(effects
 				(font
@@ -11069,7 +11339,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 68.58 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11110,7 +11380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 68.58 109.22 0)
 			(effects
 				(font
@@ -11148,6 +11418,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 68.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 88.9 34.29 0)
 			(effects
 				(font
@@ -11263,7 +11542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 271.78 46.99 0)
 			(effects
 				(font
@@ -11272,7 +11551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 259.0292 46.99 0)
 			(effects
 				(font
@@ -11281,7 +11560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 269.24 46.99 0)
 			(effects
 				(font
@@ -11395,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 217.17 35.56 0)
 			(effects
 				(font
@@ -11461,7 +11740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -11576,7 +11855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 140.97 175.26 0)
 			(effects
 				(font
@@ -11649,7 +11928,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 143.51 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11690,7 +11969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 143.51 109.22 0)
 			(effects
 				(font
@@ -11735,6 +12014,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96dd63b3-ee5b-4023-85ed-f7892bfa8955")
 		)
@@ -11754,7 +12042,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 224.79 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11795,7 +12083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 224.79 86.36 0)
 			(effects
 				(font
@@ -11833,6 +12121,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 224.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11900,7 +12197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 31.75 55.88 0)
 			(effects
 				(font
@@ -11995,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 34.29 93.98 0)
 			(effects
 				(font
@@ -12004,7 +12301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 21.5392 93.98 0)
 			(effects
 				(font
@@ -12013,7 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 31.75 93.98 0)
 			(effects
 				(font
@@ -12109,7 +12406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -12118,7 +12415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 232.3592 95.25 0)
 			(effects
 				(font
@@ -12127,7 +12424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 242.57 95.25 0)
 			(effects
 				(font
@@ -12241,7 +12538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor 0603"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -12354,7 +12651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -12419,7 +12716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 114.3 0)
 			(effects
 				(font
@@ -12484,7 +12781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 114.3 0)
 			(effects
 				(font
@@ -12550,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -12575,7 +12872,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_01x02")
 		(at 276.86 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12616,7 +12913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 276.86 38.1 0)
 			(effects
 				(font
@@ -12654,6 +12951,15 @@
 		)
 		(property "manf#" "M20-9990245"
 			(at 275.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 276.86 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
