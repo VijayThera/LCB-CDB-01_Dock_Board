@@ -1,4 +1,4 @@
-23592636660181393
+23592637248214553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62853,6 +62853,13 @@ Jumper_bridge
 2
 2
 LEA_FootprintLibrary
+LCB_M3_Spacer+Screw
+
+
+0
+0
+0
+LEA_FootprintLibrary
 LCB_connector_top
 
 
@@ -62980,13 +62987,6 @@ MountingHole_M3
 0
 LEA_FootprintLibrary
 MountingHole_M3_Plastic_Screw
-
-
-0
-0
-0
-LEA_FootprintLibrary
-MountingHole_M3_Spacer+Screw
 
 
 0

@@ -750,8 +750,8 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom no)
+			(exclude_from_sim yes)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
 				(at -3.048 0 0)
@@ -808,6 +808,15 @@
 			)
 			(property "manf#" "MTS-10S|29341"
 				(at 0.762 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Essentra|Keystone Electronics"
+				(at 8.128 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5874,8 +5883,8 @@
 		(lib_id "LEA_SymbolLibrary:LCB_M3_Spacer+Scew")
 		(at 220.98 124.46 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
+		(exclude_from_sim yes)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5936,6 +5945,15 @@
 		)
 		(property "manf#" "MTS-10S|29341"
 			(at 221.742 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Essentra|Keystone Electronics"
+			(at 229.108 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
