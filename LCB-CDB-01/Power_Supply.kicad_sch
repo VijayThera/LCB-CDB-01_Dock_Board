@@ -802,7 +802,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:Conn_USBC_GTC_USB4110-GF-A"
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -1317,7 +1317,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
@@ -1556,7 +1556,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:TPS73733DCQ"
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
@@ -3616,7 +3616,7 @@
 		(lib_id "LEA_SymbolLibrary:LDO_TC1224-3.0VCTTR")
 		(at 195.58 69.85 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3785,7 +3785,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_USBC_GTC_USB4110-GF-A")
 		(at 57.15 57.15 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4665,7 +4665,7 @@
 		(lib_id "LEA_SymbolLibrary:TPS73733DCQ")
 		(at 116.84 67.31 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5386,7 +5386,7 @@
 		(lib_id "LEA_SymbolLibrary:D_SOD_1A0_BAS3010A03WE6327HTSA1")
 		(at 93.98 52.07 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)

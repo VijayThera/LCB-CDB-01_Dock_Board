@@ -14,7 +14,7 @@
 		(symbol "LEA_SymbolLibrary:Conn_02x30_Row_Letter_Last"
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
