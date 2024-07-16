@@ -5,8 +5,8 @@
 	(uuid "27f27acd-2c00-427c-9b66-da71bb73856d")
 	(paper "A4")
 	(title_block
-		(title "LCB-CBD-01: Dock")
-		(date "2024-06-25")
+		(title "LCB-CDB-01: Dock Board")
+		(date "2024-07-16")
 		(rev "1.2.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -125,7 +125,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -173,15 +173,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1608X5R1H104K"
 				(at 0 0 0)
 				(effects
@@ -192,15 +183,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -492,7 +474,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -576,7 +558,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -624,15 +606,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW0603100RFKEAC"
 				(at 0 0 0)
 				(effects
@@ -643,15 +616,6 @@
 				)
 			)
 			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -753,7 +717,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -801,15 +765,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW0603100KFKEAC"
 				(at 0 0 0)
 				(effects
@@ -820,15 +775,6 @@
 				)
 			)
 			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4691,7 +4637,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100k_THICK__1P__75V")
 		(at 31.75 35.56 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4742,25 +4688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -4865,15 +4793,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 57.15 111.76 0)
 			(effects
@@ -4947,7 +4866,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 179.07 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5012,7 +4931,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100k_THICK__1P__75V")
 		(at 31.75 77.47 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5063,25 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 77.47 0)
 			(effects
 				(font
@@ -5180,15 +5081,6 @@
 		)
 		(property "Manufacturer" "Onsemi"
 			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,15 +5221,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 182.88 17.78 0)
 			(effects
@@ -5384,7 +5267,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 59.69 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5510,15 +5393,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 167.64 134.62 0)
 			(effects
@@ -5565,7 +5439,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 46.99 50.8 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5616,25 +5490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 46.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 46.99 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -5733,15 +5589,6 @@
 		)
 		(property "Manufacturer" "Bourns"
 			(at 195.58 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 652-PTV09A-4020FB103"
-			(at 204.47 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,15 +5695,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 259.08 129.54 0)
 			(effects
@@ -5930,7 +5768,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 46.99 177.8 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5981,25 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 46.99 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 46.99 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 46.99 177.8 0)
 			(effects
 				(font
@@ -6105,15 +5925,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "179-TS046643BK160SMT"
-			(at 21.59 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "179-TS046643BK160SMT"
 			(at 21.59 134.62 0)
 			(effects
@@ -6151,7 +5962,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 171.45 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6217,7 +6028,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 171.45 123.19 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6282,7 +6093,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 179.07 59.69 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6408,15 +6219,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 234.95 106.68 0)
 			(effects
@@ -6463,7 +6265,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100k_THICK__1P__75V")
 		(at 31.75 119.38 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6514,25 +6316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 119.38 0)
 			(effects
 				(font
@@ -6578,7 +6362,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 238.76 135.89 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6704,15 +6488,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 182.88 58.42 0)
 			(effects
@@ -6811,15 +6586,6 @@
 		)
 		(property "Manufacturer" "Onsemi"
 			(at 50.8 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 57.15 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,15 +6726,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 229.87 25.4 0)
 			(effects
@@ -7067,15 +6824,6 @@
 		)
 		(property "Manufacturer" "Onsemi"
 			(at 74.93 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 81.28 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,15 +6965,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 167.64 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 167.64 127 0)
 			(effects
@@ -7325,15 +7064,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 232.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,15 +7176,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 191.77 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 191.77 129.54 0)
 			(effects
@@ -7528,7 +7249,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100R_THICK__1P__75V")
 		(at 39.37 125.73 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7576,25 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 39.37 125.73 0)
 			(effects
 				(font
@@ -7699,15 +7402,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 81.28 69.85 0)
 			(effects
@@ -7781,7 +7475,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 157.48 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7831,25 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 157.48 38.1 0)
 			(effects
 				(font
@@ -7895,7 +7571,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 116.84 63.5 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7946,25 +7622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -8010,7 +7668,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 46.99 134.62 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8061,25 +7719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 46.99 134.62 0)
 			(effects
 				(font
@@ -8125,7 +7765,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100R_THICK__1P__75V")
 		(at 39.37 168.91 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8173,25 +7813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 39.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 39.37 168.91 0)
 			(effects
 				(font
@@ -8290,15 +7912,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 185.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,15 +8024,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 191.77 101.6 0)
 			(effects
@@ -8493,7 +8097,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 171.45 135.89 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8611,15 +8215,6 @@
 		)
 		(property "Manufacturer" "Onsemi"
 			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 57.15 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,15 +8346,6 @@
 		)
 		(property "Manufacturer" "Onsemi"
 			(at 252.73 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 259.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,15 +8486,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 63.5 71.12 0)
 			(effects
@@ -9014,15 +8591,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 81.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 81.28 27.94 0)
 			(effects
@@ -9096,7 +8664,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 204.47 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9146,25 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 204.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 204.47 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 204.47 38.1 0)
 			(effects
 				(font
@@ -9210,7 +8760,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 132.08 80.01 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9335,15 +8885,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 182.88 25.4 0)
 			(effects
@@ -9390,7 +8931,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9514,15 +9055,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 207.01 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 207.01 156.21 0)
 			(effects
@@ -9622,15 +9154,6 @@
 		)
 		(property "Manufacturer" "Bourns"
 			(at 195.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 652-PTV09A-4020FB103"
-			(at 204.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,15 +9261,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 652-PTV09A-4020FB103"
-			(at 157.48 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" " 652-PTV09A-4020FB103"
 			(at 157.48 15.24 0)
 			(effects
@@ -9846,15 +9360,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 81.28 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 81.28 111.76 0)
 			(effects
@@ -9928,7 +9433,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100k_THICK__1P__75V")
 		(at 31.75 162.56 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9979,25 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 162.56 0)
 			(effects
 				(font
@@ -10043,7 +9530,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10109,7 +9596,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 29.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10235,15 +9722,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "179-TS046643BK160SMT"
-			(at 21.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "179-TS046643BK160SMT"
 			(at 21.59 50.8 0)
 			(effects
@@ -10341,15 +9819,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 63.5 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 63.5 156.21 0)
 			(effects
@@ -10396,7 +9865,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100R_THICK__1P__75V")
 		(at 39.37 83.82 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10444,25 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 39.37 83.82 0)
 			(effects
 				(font
@@ -10568,15 +10019,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 182.88 33.02 0)
 			(effects
@@ -10623,7 +10065,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 179.07 26.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10748,15 +10190,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 182.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 182.88 50.8 0)
 			(effects
@@ -10857,15 +10290,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,15 +10403,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "179-TS046643BK160SMT"
-			(at 21.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "179-TS046643BK160SMT"
 			(at 21.59 177.8 0)
 			(effects
@@ -11025,7 +10440,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 238.76 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11150,15 +10565,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 86.36 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 86.36 29.21 0)
 			(effects
@@ -11205,7 +10611,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 118.11 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11256,25 +10662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 118.11 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 118.11 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 118.11 130.81 0)
 			(effects
 				(font
@@ -11373,15 +10761,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 232.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,15 +10874,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 128.27 49.53 0)
 			(effects
@@ -11577,7 +10947,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_100R_THICK__1P__75V")
 		(at 39.37 41.91 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11625,25 +10995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 39.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 39.37 41.91 0)
 			(effects
 				(font
@@ -11749,15 +11101,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 652-PTV09A-4020FB103"
-			(at 157.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" " 652-PTV09A-4020FB103"
 			(at 157.48 48.26 0)
 			(effects
@@ -11798,7 +11141,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 171.45 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11924,15 +11267,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 234.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 234.95 99.06 0)
 			(effects
@@ -12033,15 +11367,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 232.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 234.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,15 +11480,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 86.36 156.21 0)
 			(effects
@@ -12210,7 +11526,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 238.76 107.95 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12276,7 +11592,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 132.08 45.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12402,15 +11718,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 63.5 29.21 0)
 			(effects
@@ -12510,15 +11817,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 87.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 86.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,15 +11928,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 274.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 274.32 128.27 0)
 			(effects
@@ -12685,7 +11974,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 186.69 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12750,7 +12039,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12815,7 +12104,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 226.06 59.69 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12938,24 +12227,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "118-2MS1T1B1M2QES"
-			(at 181.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "2MS1T1B1M2QES "
-			(at 181.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "118-2MS1T1B1M2QES"
 			(at 181.61 128.27 0)
 			(effects
@@ -12996,7 +12267,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 143.51 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13122,15 +12393,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 167.64 99.06 0)
 			(effects
@@ -13236,15 +12498,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "863-MC74HC14ADG "
-			(at 57.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "863-MC74HC14ADG "
 			(at 57.15 154.94 0)
 			(effects
@@ -13318,7 +12571,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 204.47 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13368,25 +12621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 204.47 71.12 0)
 			(effects
 				(font
@@ -13432,7 +12667,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 238.76 123.19 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13497,7 +12732,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 156.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13563,7 +12798,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 179.07 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13688,15 +12923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 229.87 58.42 0)
 			(effects
@@ -13797,15 +13023,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 234.95 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13919,15 +13136,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 229.87 33.02 0)
 			(effects
@@ -14027,15 +13235,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 64.77 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14147,24 +13346,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "118-2MS1T1B1M2QES"
-			(at 248.92 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "2MS1T1B1M2QES "
-			(at 248.92 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "118-2MS1T1B1M2QES"
 			(at 248.92 128.27 0)
 			(effects
@@ -14256,24 +13437,6 @@
 		)
 		(property "Manufacturer" "Dailywell"
 			(at 248.92 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "118-2MS1T1B1M2QES"
-			(at 248.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "2MS1T1B1M2QES "
-			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,15 +13537,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 87.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 86.36 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,15 +13650,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 229.87 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 229.87 17.78 0)
 			(effects
@@ -14551,7 +13696,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 133.35 147.32 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -14674,15 +13819,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 207.01 128.27 0)
 			(effects
@@ -14787,15 +13923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 274.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 274.32 156.21 0)
 			(effects
@@ -14842,7 +13969,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 133.35 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -14908,7 +14035,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 226.06 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15033,15 +14160,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "179-TS046643BK160SMT"
-			(at 21.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "179-TS046643BK160SMT"
 			(at 21.59 92.71 0)
 			(effects
@@ -15079,7 +14197,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 226.06 48.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15144,7 +14262,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 226.06 26.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15209,7 +14327,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 157.48 71.12 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15259,25 +14377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 157.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 157.48 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 157.48 71.12 0)
 			(effects
 				(font
@@ -15381,24 +14481,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "118-2MS1T1B1M2QES"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "2MS1T1B1M2QES "
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "118-2MS1T1B1M2QES"
 			(at 181.61 100.33 0)
 			(effects
@@ -15439,7 +14521,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 46.99 92.71 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15490,25 +14572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 46.99 92.71 0)
 			(effects
 				(font

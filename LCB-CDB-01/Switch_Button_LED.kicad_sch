@@ -5,8 +5,8 @@
 	(uuid "e832ad8b-e127-40df-93d3-7afd3d478f40")
 	(paper "A4")
 	(title_block
-		(title "LCB-CBD-01: Dock")
-		(date "2024-06-25")
+		(title "LCB-CDB-01: Dock Board")
+		(date "2024-07-16")
 		(rev "1.2.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -412,7 +412,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -1045,7 +1045,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1093,15 +1093,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW0603680RFKEAC"
 				(at 0 0 0)
 				(effects
@@ -1112,15 +1103,6 @@
 				)
 			)
 			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2991,7 +2973,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 135.89 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3041,25 +3023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -3105,7 +3069,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 160.02 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3171,7 +3135,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 217.17 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3294,24 +3258,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 54.102 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 47.5488 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11UTT86R"
 			(at 60.96 46.99 0)
 			(effects
@@ -3408,15 +3354,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 246.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 246.38 74.93 0)
 			(effects
@@ -3463,7 +3400,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 217.17 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3513,25 +3450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 217.17 104.14 0)
 			(effects
 				(font
@@ -3577,7 +3496,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 217.17 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3642,7 +3561,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 135.89 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3766,24 +3685,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 54.102 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 47.5488 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11UTT86R"
 			(at 60.96 93.98 0)
 			(effects
@@ -3873,15 +3774,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 220.98 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,15 +3886,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 273.05 50.8 0)
 			(effects
@@ -4049,7 +3932,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 135.89 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4114,7 +3997,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 269.24 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4164,25 +4047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 269.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 269.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 269.24 55.88 0)
 			(effects
 				(font
@@ -4228,7 +4093,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 31.75 102.87 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4278,25 +4143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 102.87 0)
 			(effects
 				(font
@@ -4394,15 +4241,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 166.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,24 +4353,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 235.712 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 227.6348 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 250.825 48.26 0)
 			(effects
@@ -4629,24 +4449,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 84.582 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 78.0288 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 99.695 167.64 0)
 			(effects
@@ -4736,15 +4538,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 64.77 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,15 +4650,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 187.96 26.67 0)
 			(effects
@@ -4971,24 +4755,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 33.782 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 27.2288 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 48.895 165.1 0)
 			(effects
@@ -5085,15 +4851,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 163.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 163.83 73.66 0)
 			(effects
@@ -5140,7 +4897,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 40.64 184.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5264,15 +5021,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 64.77 26.67 0)
 			(effects
@@ -5377,24 +5125,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 24.892 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 18.3388 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11UTT86R"
 			(at 31.75 46.99 0)
 			(effects
@@ -5432,7 +5162,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 242.57 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5482,25 +5212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -5605,24 +5317,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 177.292 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 174.8536 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11YTT86R"
 			(at 184.15 46.99 0)
 			(effects
@@ -5712,15 +5406,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 95.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,15 +5518,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 246.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 246.38 50.8 0)
 			(effects
@@ -5947,15 +5623,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 163.83 97.79 0)
 			(effects
@@ -6002,7 +5669,7 @@
 		(lib_id "LEA_SymbolLibrary:+5V_LV")
 		(at 40.64 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6068,7 +5735,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 184.15 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6133,7 +5800,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 91.44 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6184,25 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 91.44 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 91.44 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 91.44 175.26 0)
 			(effects
 				(font
@@ -6248,7 +5897,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 269.24 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6313,7 +5962,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 160.02 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6379,7 +6028,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 91.44 184.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6503,24 +6152,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 129.032 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 126.5936 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11YTT86R"
 			(at 135.89 46.99 0)
 			(effects
@@ -6617,24 +6248,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 129.032 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 126.5936 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11YTT86R"
 			(at 135.89 93.98 0)
 			(effects
@@ -6672,7 +6285,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 242.57 115.57 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6796,15 +6409,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 139.7 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 139.7 26.67 0)
 			(effects
@@ -6851,7 +6455,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 60.96 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6976,15 +6580,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 35.56 50.8 0)
 			(effects
@@ -7090,24 +6685,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 210.312 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 202.2348 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 225.425 48.26 0)
 			(effects
@@ -7197,24 +6774,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 153.162 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 150.7236 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,15 +6877,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 163.83 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 163.83 26.67 0)
 			(effects
@@ -7373,7 +6923,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 60.96 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7423,25 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 60.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 60.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -7487,7 +7019,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 140.97 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7553,7 +7085,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7677,15 +7209,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 64.77 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 64.77 73.66 0)
 			(effects
@@ -7791,15 +7314,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 35.56 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 35.56 73.66 0)
 			(effects
@@ -7846,7 +7360,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 40.64 171.45 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7897,25 +7411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 40.64 171.45 0)
 			(effects
 				(font
@@ -7961,7 +7457,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 60.96 114.3 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8026,7 +7522,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 184.15 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8151,15 +7647,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 92.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 92.71 25.4 0)
 			(effects
@@ -8206,7 +7693,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8331,15 +7818,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 187.96 50.8 0)
 			(effects
@@ -8386,7 +7864,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 184.15 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8436,25 +7914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 184.15 55.88 0)
 			(effects
 				(font
@@ -8558,24 +8018,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 82.042 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 75.4888 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11UTT86R"
 			(at 88.9 45.72 0)
 			(effects
@@ -8665,15 +8107,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 142.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 139.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,15 +8219,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 35.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 35.56 26.67 0)
 			(effects
@@ -8841,7 +8265,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 242.57 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8906,7 +8330,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 269.24 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8972,7 +8396,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 242.57 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9038,7 +8462,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 217.17 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9088,25 +8512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 217.17 55.88 0)
 			(effects
 				(font
@@ -9204,15 +8610,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 248.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 246.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,15 +8722,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 246.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 246.38 99.06 0)
 			(effects
@@ -9380,7 +8768,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 135.89 102.87 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9430,25 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 135.89 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 135.89 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -9553,15 +8923,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 35.56 97.79 0)
 			(effects
@@ -9608,7 +8969,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 140.97 184.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9732,24 +9093,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 134.112 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 127.5588 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 149.225 167.64 0)
 			(effects
@@ -9787,7 +9130,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 217.17 83.82 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9912,24 +9255,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 153.162 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 150.7236 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11YTT86R"
 			(at 160.02 46.99 0)
 			(effects
@@ -9967,7 +9292,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 31.75 82.55 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10092,15 +9417,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 139.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 139.7 73.66 0)
 			(effects
@@ -10206,24 +9522,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 210.312 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 202.2348 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 225.425 96.52 0)
 			(effects
@@ -10261,7 +9559,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 60.96 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10326,7 +9624,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 160.02 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10376,25 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 160.02 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 160.02 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -10499,15 +9779,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 220.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 220.98 99.06 0)
 			(effects
@@ -10554,7 +9825,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 60.96 102.87 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10604,25 +9875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 60.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 60.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -10668,7 +9921,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 160.02 114.3 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10733,7 +9986,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 40.64 179.07 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10784,25 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 40.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 40.64 179.07 0)
 			(effects
 				(font
@@ -10848,7 +10083,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 135.89 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10914,7 +10149,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 242.57 83.82 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11039,15 +10274,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 220.98 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 220.98 50.8 0)
 			(effects
@@ -11094,7 +10320,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 160.02 102.87 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11144,25 +10370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 160.02 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 160.02 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -11208,7 +10416,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 160.02 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11273,7 +10481,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 60.96 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11398,15 +10606,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 64.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 64.77 97.79 0)
 			(effects
@@ -11453,7 +10652,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 88.9 34.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11578,24 +10777,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 262.382 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 254.3048 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 277.495 48.26 0)
 			(effects
@@ -11633,7 +10814,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 217.17 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11699,7 +10880,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 88.9 54.61 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11749,25 +10930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 88.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 88.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -11813,7 +10976,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 140.97 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11864,25 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 140.97 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 140.97 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 140.97 175.26 0)
 			(effects
 				(font
@@ -11980,15 +11125,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 142.24 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,15 +11237,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 220.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "855-M20-9990245"
 			(at 220.98 74.93 0)
 			(effects
@@ -12156,7 +11283,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 31.75 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12206,25 +11333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 31.75 55.88 0)
 			(effects
 				(font
@@ -12328,24 +11437,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 24.892 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 18.3388 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11UTT86R"
 			(at 31.75 93.98 0)
 			(effects
@@ -12442,24 +11533,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 235.712 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 227.6348 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "755-SML-P11MTT86R"
 			(at 250.825 96.52 0)
 			(effects
@@ -12497,7 +11570,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 242.57 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12547,25 +11620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 242.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -12611,7 +11666,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 88.9 66.04 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12676,7 +11731,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 31.75 114.3 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12741,7 +11796,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 135.89 114.3 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12806,7 +11861,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 91.44 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12924,15 +11979,6 @@
 		)
 		(property "Manufacturer" "Harwin"
 			(at 275.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No." " 855-M20-9990245"
-			(at 273.05 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
