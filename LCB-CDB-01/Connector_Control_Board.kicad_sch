@@ -5,8 +5,8 @@
 	(uuid "ad13db63-5956-45a2-a5ed-c9797a32fe8c")
 	(paper "A4")
 	(title_block
-		(title "LCB-CBD-01: Dock")
-		(date "2024-06-25")
+		(title "LCB-CDB-01: Dock Board")
+		(date "2024-07-16")
 		(rev "1.2.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -123,7 +123,7 @@
 		)
 		(symbol "LEA_SymbolLibrary:Conn_LCB_connector_top"
 			(pin_names hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -5663,7 +5663,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -15428,7 +15428,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 19.05 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15493,7 +15493,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_LCB_connector_top")
 		(at 247.65 113.03 0)
 		(unit 4)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -15544,24 +15544,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 276.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 285.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 287.02 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16500,7 +16482,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 19.05 26.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -16566,7 +16548,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_LCB_connector_top")
 		(at 180.34 113.03 0)
 		(unit 3)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -16617,24 +16599,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 209.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 218.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17573,7 +17537,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_LCB_connector_top")
 		(at 53.34 113.03 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17624,24 +17588,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 82.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 91.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +18526,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_LCB_connector_top")
 		(at 118.11 111.76 0)
 		(unit 2)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -18631,24 +18577,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 147.32 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,8 +5,8 @@
 	(uuid "a200ac50-fd5b-462d-a476-a8fd7a2f2a50")
 	(paper "A4")
 	(title_block
-		(title "LCB-CBD-01: Dock")
-		(date "2024-06-25")
+		(title "LCB-CDB-01: Dock Board")
+		(date "2024-07-16")
 		(rev "1.2.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -235,7 +235,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -283,15 +283,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CGA3E2X7R1H103K"
 				(at 0 0 0)
 				(effects
@@ -302,15 +293,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -425,7 +407,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -473,15 +455,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "GRM188R61E106KA3D"
 				(at 0 0 0)
 				(effects
@@ -492,15 +465,6 @@
 				)
 			)
 			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -615,7 +579,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -663,15 +627,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1608X5R1H105K"
 				(at 0 0 0)
 				(effects
@@ -682,15 +637,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,7 +748,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:Conn_USBC_GTC_USB4110-GF-A"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -1317,7 +1263,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
@@ -1472,7 +1418,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -1556,7 +1502,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
@@ -1737,7 +1683,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1785,25 +1731,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04020000Z0EDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1914,7 +1842,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1962,15 +1890,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW06034K70FKEBC"
 				(at 0 0 0)
 				(effects
@@ -1981,15 +1900,6 @@
 				)
 			)
 			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2088,7 +1998,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:TPS73733DCQ"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
@@ -3082,7 +2992,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V")
 		(at 59.69 85.09 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3122,24 +3032,6 @@
 			)
 		)
 		(property "Description" "Resistor 0402"
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -3194,7 +3086,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 64.77 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3259,7 +3151,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 115.57 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3324,7 +3216,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__10u_X5R_10P__25V")
 		(at 154.94 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3375,25 +3267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -3439,7 +3313,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 154.94 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3504,7 +3378,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 76.2 46.99 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3552,25 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 76.2 46.99 0)
 			(effects
 				(font
@@ -3616,7 +3472,7 @@
 		(lib_id "LEA_SymbolLibrary:LDO_TC1224-3.0VCTTR")
 		(at 195.58 69.85 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3720,7 +3576,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 195.58 81.28 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3785,7 +3641,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_USBC_GTC_USB4110-GF-A")
 		(at 57.15 57.15 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3836,24 +3692,6 @@
 		)
 		(property "Manufacturer" "GTC"
 			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "640-USB4110-GF-A"
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "USB4110-GF-A"
-			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3769,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__10u_X5R_10P__25V")
 		(at 93.98 73.66 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3982,25 +3820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -4046,7 +3866,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 129.54 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4111,7 +3931,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 93.98 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4241,7 +4061,7 @@
 		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 76.2 44.45 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4289,25 +4109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -4353,7 +4155,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__10n_X7R_10P__50V")
 		(at 129.54 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4404,25 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 129.54 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "TDK"
-			(at 129.54 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -4468,7 +4252,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 144.78 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4533,7 +4317,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 208.28 66.04 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4599,7 +4383,7 @@
 		(lib_id "LEA_SymbolLibrary:+5V_LV")
 		(at 104.14 62.23 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4665,7 +4449,7 @@
 		(lib_id "LEA_SymbolLibrary:TPS73733DCQ")
 		(at 116.84 67.31 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4723,15 +4507,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No." "595-TPS73733DCQG4"
-			(at 116.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "595-TPS73733DCQG4"
 			(at 116.84 49.53 0)
 			(effects
@@ -4781,7 +4556,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 181.61 66.04 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4847,7 +4622,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 83.82 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4912,7 +4687,7 @@
 		(lib_id "LEA_SymbolLibrary:GND")
 		(at 80.01 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4977,7 +4752,7 @@
 		(lib_id "LEA_SymbolLibrary:+3V3")
 		(at 154.94 60.96 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5043,7 +4818,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V")
 		(at 181.61 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5093,15 +4868,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manf#" "C1608X5R1H105K"
 			(at 181.61 74.93 0)
 			(effects
@@ -5112,15 +4878,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -5157,7 +4914,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__10u_X5R_10P__25V")
 		(at 144.78 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5208,25 +4965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -5272,7 +5011,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V")
 		(at 208.28 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5322,15 +5061,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No" ""
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "manf#" "C1608X5R1H105K"
 			(at 208.28 74.93 0)
 			(effects
@@ -5341,15 +5071,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 208.28 74.93 0)
 			(effects
 				(font
@@ -5386,7 +5107,7 @@
 		(lib_id "LEA_SymbolLibrary:D_SOD_1A0_BAS3010A03WE6327HTSA1")
 		(at 93.98 52.07 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5439,24 +5160,6 @@
 		)
 		(property "Manufacturer" "Infineon"
 			(at 77.47 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "726-BAS3010A-03WE6"
-			(at 81.28 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "BAS3010A03WE6327HTSA1"
-			(at 86.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
